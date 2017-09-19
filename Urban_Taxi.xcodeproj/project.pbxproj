@@ -1,0 +1,892 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA8AC8BC1F700085000245B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8AC8BB1F700085000245B4 /* AppDelegate.swift */; };
+		FA8AC8BE1F700085000245B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8AC8BD1F700085000245B4 /* ViewController.swift */; };
+		FA8AC8C11F700085000245B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA8AC8BF1F700085000245B4 /* Main.storyboard */; };
+		FA8AC8C31F700085000245B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA8AC8C21F700085000245B4 /* Assets.xcassets */; };
+		FA8AC8C61F700085000245B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA8AC8C41F700085000245B4 /* LaunchScreen.storyboard */; };
+		FA8AC8D11F700085000245B4 /* Urban_TaxiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8AC8D01F700085000245B4 /* Urban_TaxiTests.swift */; };
+		FA8AC8DC1F700085000245B4 /* Urban_TaxiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8AC8DB1F700085000245B4 /* Urban_TaxiUITests.swift */; };
+		FA8AC8FE1F7005EE000245B4 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8AC8FD1F7005EE000245B4 /* LeftViewController.swift */; };
+		FA8AC9511F700BD7000245B4 /* LGSideMenuController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8AC9481F700BD6000245B4 /* LGSideMenuController.framework */; };
+		FA8AC9581F700BD7000245B4 /* LGSideMenuControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8AC9571F700BD7000245B4 /* LGSideMenuControllerTests.swift */; };
+		FA8AC95A1F700BD7000245B4 /* LGSideMenuController.h in Headers */ = {isa = PBXBuildFile; fileRef = FA8AC94A1F700BD6000245B4 /* LGSideMenuController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA8AC95D1F700BD7000245B4 /* LGSideMenuController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8AC9481F700BD6000245B4 /* LGSideMenuController.framework */; };
+		FA8AC95E1F700BD7000245B4 /* LGSideMenuController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA8AC9481F700BD6000245B4 /* LGSideMenuController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FA8AC9731F700D8E000245B4 /* LGSideMenuBorderView.h in Headers */ = {isa = PBXBuildFile; fileRef = FA8AC96E1F700C6E000245B4 /* LGSideMenuBorderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA8AC9741F700D92000245B4 /* LGSideMenuBorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8AC96D1F700C6E000245B4 /* LGSideMenuBorderView.m */; };
+		FA8AC9751F700D94000245B4 /* LGSideMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8AC9701F700C6E000245B4 /* LGSideMenuController.m */; };
+		FA8AC9761F700D97000245B4 /* LGSideMenuGesturesHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = FA8AC9721F700C6E000245B4 /* LGSideMenuGesturesHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA8AC9771F700D99000245B4 /* LGSideMenuGesturesHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8AC9711F700C6E000245B4 /* LGSideMenuGesturesHandler.m */; };
+		FA8AC9781F700D9D000245B4 /* LGSideMenuHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = FA8AC9671F700C6E000245B4 /* LGSideMenuHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA8AC9791F700DC6000245B4 /* LGSideMenuHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8AC9691F700C6E000245B4 /* LGSideMenuHelper.m */; };
+		FA8AC97A1F700DC8000245B4 /* LGSideMenuSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = FA8AC96C1F700C6E000245B4 /* LGSideMenuSegue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA8AC97B1F700DCC000245B4 /* LGSideMenuSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8AC96B1F700C6E000245B4 /* LGSideMenuSegue.m */; };
+		FA8AC97C1F700DD0000245B4 /* LGSideMenuView.h in Headers */ = {isa = PBXBuildFile; fileRef = FA8AC96F1F700C6E000245B4 /* LGSideMenuView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA8AC97D1F700DD4000245B4 /* LGSideMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8AC96A1F700C6E000245B4 /* LGSideMenuView.m */; };
+		FA8AC97E1F700DD7000245B4 /* UIViewController+LGSideMenuController.h in Headers */ = {isa = PBXBuildFile; fileRef = FA8AC9661F700C6E000245B4 /* UIViewController+LGSideMenuController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA8AC97F1F700DDB000245B4 /* UIViewController+LGSideMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8AC9681F700C6E000245B4 /* UIViewController+LGSideMenuController.m */; };
+		FA8AC9801F700DE5000245B4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA8AC94B1F700BD6000245B4 /* Info.plist */; };
+		FA8AC9811F700DED000245B4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA8AC9591F700BD7000245B4 /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA8AC8CD1F700085000245B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA8AC8B01F700084000245B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA8AC8B71F700085000245B4;
+			remoteInfo = Urban_Taxi;
+		};
+		FA8AC8D81F700085000245B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA8AC8B01F700084000245B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA8AC8B71F700085000245B4;
+			remoteInfo = Urban_Taxi;
+		};
+		FA8AC9521F700BD7000245B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA8AC8B01F700084000245B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA8AC9471F700BD6000245B4;
+			remoteInfo = LGSideMenuController;
+		};
+		FA8AC9541F700BD7000245B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA8AC8B01F700084000245B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA8AC8B71F700085000245B4;
+			remoteInfo = Urban_Taxi;
+		};
+		FA8AC95B1F700BD7000245B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA8AC8B01F700084000245B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA8AC9471F700BD6000245B4;
+			remoteInfo = LGSideMenuController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FA8AC9621F700BD7000245B4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FA8AC95E1F700BD7000245B4 /* LGSideMenuController.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FA8AC8B81F700085000245B4 /* Urban_Taxi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Urban_Taxi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA8AC8BB1F700085000245B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA8AC8BD1F700085000245B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA8AC8C01F700085000245B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA8AC8C21F700085000245B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA8AC8C51F700085000245B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA8AC8C71F700085000245B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA8AC8CC1F700085000245B4 /* Urban_TaxiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Urban_TaxiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA8AC8D01F700085000245B4 /* Urban_TaxiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Urban_TaxiTests.swift; sourceTree = "<group>"; };
+		FA8AC8D21F700085000245B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA8AC8D71F700085000245B4 /* Urban_TaxiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Urban_TaxiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA8AC8DB1F700085000245B4 /* Urban_TaxiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Urban_TaxiUITests.swift; sourceTree = "<group>"; };
+		FA8AC8DD1F700085000245B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA8AC8E91F700125000245B4 /* Bridging_Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridging_Header.h; sourceTree = "<group>"; };
+		FA8AC8FD1F7005EE000245B4 /* LeftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
+		FA8AC9481F700BD6000245B4 /* LGSideMenuController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LGSideMenuController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA8AC94A1F700BD6000245B4 /* LGSideMenuController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGSideMenuController.h; sourceTree = "<group>"; };
+		FA8AC94B1F700BD6000245B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA8AC9501F700BD7000245B4 /* LGSideMenuControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGSideMenuControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA8AC9571F700BD7000245B4 /* LGSideMenuControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGSideMenuControllerTests.swift; sourceTree = "<group>"; };
+		FA8AC9591F700BD7000245B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA8AC9661F700C6E000245B4 /* UIViewController+LGSideMenuController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LGSideMenuController.h"; sourceTree = "<group>"; };
+		FA8AC9671F700C6E000245B4 /* LGSideMenuHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGSideMenuHelper.h; sourceTree = "<group>"; };
+		FA8AC9681F700C6E000245B4 /* UIViewController+LGSideMenuController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LGSideMenuController.m"; sourceTree = "<group>"; };
+		FA8AC9691F700C6E000245B4 /* LGSideMenuHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGSideMenuHelper.m; sourceTree = "<group>"; };
+		FA8AC96A1F700C6E000245B4 /* LGSideMenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGSideMenuView.m; sourceTree = "<group>"; };
+		FA8AC96B1F700C6E000245B4 /* LGSideMenuSegue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGSideMenuSegue.m; sourceTree = "<group>"; };
+		FA8AC96C1F700C6E000245B4 /* LGSideMenuSegue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGSideMenuSegue.h; sourceTree = "<group>"; };
+		FA8AC96D1F700C6E000245B4 /* LGSideMenuBorderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGSideMenuBorderView.m; sourceTree = "<group>"; };
+		FA8AC96E1F700C6E000245B4 /* LGSideMenuBorderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGSideMenuBorderView.h; sourceTree = "<group>"; };
+		FA8AC96F1F700C6E000245B4 /* LGSideMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGSideMenuView.h; sourceTree = "<group>"; };
+		FA8AC9701F700C6E000245B4 /* LGSideMenuController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGSideMenuController.m; sourceTree = "<group>"; };
+		FA8AC9711F700C6E000245B4 /* LGSideMenuGesturesHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGSideMenuGesturesHandler.m; sourceTree = "<group>"; };
+		FA8AC9721F700C6E000245B4 /* LGSideMenuGesturesHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGSideMenuGesturesHandler.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA8AC8B51F700085000245B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8AC95D1F700BD7000245B4 /* LGSideMenuController.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8AC8C91F700085000245B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8AC8D41F700085000245B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8AC9441F700BD6000245B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8AC94D1F700BD7000245B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8AC9511F700BD7000245B4 /* LGSideMenuController.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA8AC8AF1F700084000245B4 = {
+			isa = PBXGroup;
+			children = (
+				FA8AC8E91F700125000245B4 /* Bridging_Header.h */,
+				FA8AC8BA1F700085000245B4 /* Urban_Taxi */,
+				FA8AC8CF1F700085000245B4 /* Urban_TaxiTests */,
+				FA8AC8DA1F700085000245B4 /* Urban_TaxiUITests */,
+				FA8AC9491F700BD6000245B4 /* LGSideMenuController */,
+				FA8AC9561F700BD7000245B4 /* LGSideMenuControllerTests */,
+				FA8AC8B91F700085000245B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA8AC8B91F700085000245B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA8AC8B81F700085000245B4 /* Urban_Taxi.app */,
+				FA8AC8CC1F700085000245B4 /* Urban_TaxiTests.xctest */,
+				FA8AC8D71F700085000245B4 /* Urban_TaxiUITests.xctest */,
+				FA8AC9481F700BD6000245B4 /* LGSideMenuController.framework */,
+				FA8AC9501F700BD7000245B4 /* LGSideMenuControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA8AC8BA1F700085000245B4 /* Urban_Taxi */ = {
+			isa = PBXGroup;
+			children = (
+				FA8AC8BB1F700085000245B4 /* AppDelegate.swift */,
+				FA8AC8BD1F700085000245B4 /* ViewController.swift */,
+				FA8AC8FD1F7005EE000245B4 /* LeftViewController.swift */,
+				FA8AC8BF1F700085000245B4 /* Main.storyboard */,
+				FA8AC8C21F700085000245B4 /* Assets.xcassets */,
+				FA8AC8C41F700085000245B4 /* LaunchScreen.storyboard */,
+				FA8AC8C71F700085000245B4 /* Info.plist */,
+			);
+			path = Urban_Taxi;
+			sourceTree = "<group>";
+		};
+		FA8AC8CF1F700085000245B4 /* Urban_TaxiTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA8AC8D01F700085000245B4 /* Urban_TaxiTests.swift */,
+				FA8AC8D21F700085000245B4 /* Info.plist */,
+			);
+			path = Urban_TaxiTests;
+			sourceTree = "<group>";
+		};
+		FA8AC8DA1F700085000245B4 /* Urban_TaxiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA8AC8DB1F700085000245B4 /* Urban_TaxiUITests.swift */,
+				FA8AC8DD1F700085000245B4 /* Info.plist */,
+			);
+			path = Urban_TaxiUITests;
+			sourceTree = "<group>";
+		};
+		FA8AC9491F700BD6000245B4 /* LGSideMenuController */ = {
+			isa = PBXGroup;
+			children = (
+				FA8AC96E1F700C6E000245B4 /* LGSideMenuBorderView.h */,
+				FA8AC96D1F700C6E000245B4 /* LGSideMenuBorderView.m */,
+				FA8AC9701F700C6E000245B4 /* LGSideMenuController.m */,
+				FA8AC9721F700C6E000245B4 /* LGSideMenuGesturesHandler.h */,
+				FA8AC9711F700C6E000245B4 /* LGSideMenuGesturesHandler.m */,
+				FA8AC9671F700C6E000245B4 /* LGSideMenuHelper.h */,
+				FA8AC9691F700C6E000245B4 /* LGSideMenuHelper.m */,
+				FA8AC96C1F700C6E000245B4 /* LGSideMenuSegue.h */,
+				FA8AC96B1F700C6E000245B4 /* LGSideMenuSegue.m */,
+				FA8AC96F1F700C6E000245B4 /* LGSideMenuView.h */,
+				FA8AC96A1F700C6E000245B4 /* LGSideMenuView.m */,
+				FA8AC9661F700C6E000245B4 /* UIViewController+LGSideMenuController.h */,
+				FA8AC9681F700C6E000245B4 /* UIViewController+LGSideMenuController.m */,
+				FA8AC94A1F700BD6000245B4 /* LGSideMenuController.h */,
+				FA8AC94B1F700BD6000245B4 /* Info.plist */,
+			);
+			path = LGSideMenuController;
+			sourceTree = "<group>";
+		};
+		FA8AC9561F700BD7000245B4 /* LGSideMenuControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA8AC9571F700BD7000245B4 /* LGSideMenuControllerTests.swift */,
+				FA8AC9591F700BD7000245B4 /* Info.plist */,
+			);
+			path = LGSideMenuControllerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FA8AC9451F700BD6000245B4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8AC9761F700D97000245B4 /* LGSideMenuGesturesHandler.h in Headers */,
+				FA8AC9781F700D9D000245B4 /* LGSideMenuHelper.h in Headers */,
+				FA8AC9731F700D8E000245B4 /* LGSideMenuBorderView.h in Headers */,
+				FA8AC95A1F700BD7000245B4 /* LGSideMenuController.h in Headers */,
+				FA8AC97C1F700DD0000245B4 /* LGSideMenuView.h in Headers */,
+				FA8AC97E1F700DD7000245B4 /* UIViewController+LGSideMenuController.h in Headers */,
+				FA8AC97A1F700DC8000245B4 /* LGSideMenuSegue.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FA8AC8B71F700085000245B4 /* Urban_Taxi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA8AC8E01F700085000245B4 /* Build configuration list for PBXNativeTarget "Urban_Taxi" */;
+			buildPhases = (
+				FA8AC8B41F700085000245B4 /* Sources */,
+				FA8AC8B51F700085000245B4 /* Frameworks */,
+				FA8AC8B61F700085000245B4 /* Resources */,
+				FA8AC9621F700BD7000245B4 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA8AC95C1F700BD7000245B4 /* PBXTargetDependency */,
+			);
+			name = Urban_Taxi;
+			productName = Urban_Taxi;
+			productReference = FA8AC8B81F700085000245B4 /* Urban_Taxi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA8AC8CB1F700085000245B4 /* Urban_TaxiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA8AC8E31F700085000245B4 /* Build configuration list for PBXNativeTarget "Urban_TaxiTests" */;
+			buildPhases = (
+				FA8AC8C81F700085000245B4 /* Sources */,
+				FA8AC8C91F700085000245B4 /* Frameworks */,
+				FA8AC8CA1F700085000245B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA8AC8CE1F700085000245B4 /* PBXTargetDependency */,
+			);
+			name = Urban_TaxiTests;
+			productName = Urban_TaxiTests;
+			productReference = FA8AC8CC1F700085000245B4 /* Urban_TaxiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA8AC8D61F700085000245B4 /* Urban_TaxiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA8AC8E61F700085000245B4 /* Build configuration list for PBXNativeTarget "Urban_TaxiUITests" */;
+			buildPhases = (
+				FA8AC8D31F700085000245B4 /* Sources */,
+				FA8AC8D41F700085000245B4 /* Frameworks */,
+				FA8AC8D51F700085000245B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA8AC8D91F700085000245B4 /* PBXTargetDependency */,
+			);
+			name = Urban_TaxiUITests;
+			productName = Urban_TaxiUITests;
+			productReference = FA8AC8D71F700085000245B4 /* Urban_TaxiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		FA8AC9471F700BD6000245B4 /* LGSideMenuController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA8AC95F1F700BD7000245B4 /* Build configuration list for PBXNativeTarget "LGSideMenuController" */;
+			buildPhases = (
+				FA8AC9431F700BD6000245B4 /* Sources */,
+				FA8AC9441F700BD6000245B4 /* Frameworks */,
+				FA8AC9451F700BD6000245B4 /* Headers */,
+				FA8AC9461F700BD6000245B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LGSideMenuController;
+			productName = LGSideMenuController;
+			productReference = FA8AC9481F700BD6000245B4 /* LGSideMenuController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FA8AC94F1F700BD7000245B4 /* LGSideMenuControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA8AC9631F700BD7000245B4 /* Build configuration list for PBXNativeTarget "LGSideMenuControllerTests" */;
+			buildPhases = (
+				FA8AC94C1F700BD7000245B4 /* Sources */,
+				FA8AC94D1F700BD7000245B4 /* Frameworks */,
+				FA8AC94E1F700BD7000245B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA8AC9531F700BD7000245B4 /* PBXTargetDependency */,
+				FA8AC9551F700BD7000245B4 /* PBXTargetDependency */,
+			);
+			name = LGSideMenuControllerTests;
+			productName = LGSideMenuControllerTests;
+			productReference = FA8AC9501F700BD7000245B4 /* LGSideMenuControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA8AC8B01F700084000245B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = ARTWEB;
+				TargetAttributes = {
+					FA8AC8B71F700085000245B4 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					FA8AC8CB1F700085000245B4 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = FA8AC8B71F700085000245B4;
+					};
+					FA8AC8D61F700085000245B4 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = FA8AC8B71F700085000245B4;
+					};
+					FA8AC9471F700BD6000245B4 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					FA8AC94F1F700BD7000245B4 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = FA8AC8B71F700085000245B4;
+					};
+				};
+			};
+			buildConfigurationList = FA8AC8B31F700084000245B4 /* Build configuration list for PBXProject "Urban_Taxi" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA8AC8AF1F700084000245B4;
+			productRefGroup = FA8AC8B91F700085000245B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA8AC8B71F700085000245B4 /* Urban_Taxi */,
+				FA8AC8CB1F700085000245B4 /* Urban_TaxiTests */,
+				FA8AC8D61F700085000245B4 /* Urban_TaxiUITests */,
+				FA8AC9471F700BD6000245B4 /* LGSideMenuController */,
+				FA8AC94F1F700BD7000245B4 /* LGSideMenuControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA8AC8B61F700085000245B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8AC8C61F700085000245B4 /* LaunchScreen.storyboard in Resources */,
+				FA8AC8C31F700085000245B4 /* Assets.xcassets in Resources */,
+				FA8AC8C11F700085000245B4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8AC8CA1F700085000245B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8AC8D51F700085000245B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8AC9461F700BD6000245B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8AC9801F700DE5000245B4 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8AC94E1F700BD7000245B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8AC9811F700DED000245B4 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA8AC8B41F700085000245B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8AC8FE1F7005EE000245B4 /* LeftViewController.swift in Sources */,
+				FA8AC8BE1F700085000245B4 /* ViewController.swift in Sources */,
+				FA8AC8BC1F700085000245B4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8AC8C81F700085000245B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8AC8D11F700085000245B4 /* Urban_TaxiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8AC8D31F700085000245B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8AC8DC1F700085000245B4 /* Urban_TaxiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8AC9431F700BD6000245B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8AC9771F700D99000245B4 /* LGSideMenuGesturesHandler.m in Sources */,
+				FA8AC9751F700D94000245B4 /* LGSideMenuController.m in Sources */,
+				FA8AC9791F700DC6000245B4 /* LGSideMenuHelper.m in Sources */,
+				FA8AC9741F700D92000245B4 /* LGSideMenuBorderView.m in Sources */,
+				FA8AC97B1F700DCC000245B4 /* LGSideMenuSegue.m in Sources */,
+				FA8AC97D1F700DD4000245B4 /* LGSideMenuView.m in Sources */,
+				FA8AC97F1F700DDB000245B4 /* UIViewController+LGSideMenuController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8AC94C1F700BD7000245B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8AC9581F700BD7000245B4 /* LGSideMenuControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA8AC8CE1F700085000245B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA8AC8B71F700085000245B4 /* Urban_Taxi */;
+			targetProxy = FA8AC8CD1F700085000245B4 /* PBXContainerItemProxy */;
+		};
+		FA8AC8D91F700085000245B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA8AC8B71F700085000245B4 /* Urban_Taxi */;
+			targetProxy = FA8AC8D81F700085000245B4 /* PBXContainerItemProxy */;
+		};
+		FA8AC9531F700BD7000245B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA8AC9471F700BD6000245B4 /* LGSideMenuController */;
+			targetProxy = FA8AC9521F700BD7000245B4 /* PBXContainerItemProxy */;
+		};
+		FA8AC9551F700BD7000245B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA8AC8B71F700085000245B4 /* Urban_Taxi */;
+			targetProxy = FA8AC9541F700BD7000245B4 /* PBXContainerItemProxy */;
+		};
+		FA8AC95C1F700BD7000245B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA8AC9471F700BD6000245B4 /* LGSideMenuController */;
+			targetProxy = FA8AC95B1F700BD7000245B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA8AC8BF1F700085000245B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA8AC8C01F700085000245B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA8AC8C41F700085000245B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA8AC8C51F700085000245B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA8AC8DE1F700085000245B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA8AC8DF1F700085000245B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA8AC8E11F700085000245B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U6W8PADQNA;
+				INFOPLIST_FILE = Urban_Taxi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uz.artweb.Urban-Taxi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = Bridging_Header.h;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA8AC8E21F700085000245B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U6W8PADQNA;
+				INFOPLIST_FILE = Urban_Taxi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uz.artweb.Urban-Taxi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = Bridging_Header.h;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA8AC8E41F700085000245B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = U6W8PADQNA;
+				INFOPLIST_FILE = Urban_TaxiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uz.artweb.Urban-TaxiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Urban_Taxi.app/Urban_Taxi";
+			};
+			name = Debug;
+		};
+		FA8AC8E51F700085000245B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = U6W8PADQNA;
+				INFOPLIST_FILE = Urban_TaxiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uz.artweb.Urban-TaxiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Urban_Taxi.app/Urban_Taxi";
+			};
+			name = Release;
+		};
+		FA8AC8E71F700085000245B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = U6W8PADQNA;
+				INFOPLIST_FILE = Urban_TaxiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uz.artweb.Urban-TaxiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Urban_Taxi;
+			};
+			name = Debug;
+		};
+		FA8AC8E81F700085000245B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = U6W8PADQNA;
+				INFOPLIST_FILE = Urban_TaxiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uz.artweb.Urban-TaxiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Urban_Taxi;
+			};
+			name = Release;
+		};
+		FA8AC9601F700BD7000245B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = U6W8PADQNA;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LGSideMenuController/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uz.artweb.LGSideMenuController;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FA8AC9611F700BD7000245B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = U6W8PADQNA;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LGSideMenuController/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uz.artweb.LGSideMenuController;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FA8AC9641F700BD7000245B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = U6W8PADQNA;
+				INFOPLIST_FILE = LGSideMenuControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uz.artweb.LGSideMenuControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Urban_Taxi.app/Urban_Taxi";
+			};
+			name = Debug;
+		};
+		FA8AC9651F700BD7000245B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = U6W8PADQNA;
+				INFOPLIST_FILE = LGSideMenuControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uz.artweb.LGSideMenuControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Urban_Taxi.app/Urban_Taxi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA8AC8B31F700084000245B4 /* Build configuration list for PBXProject "Urban_Taxi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA8AC8DE1F700085000245B4 /* Debug */,
+				FA8AC8DF1F700085000245B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA8AC8E01F700085000245B4 /* Build configuration list for PBXNativeTarget "Urban_Taxi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA8AC8E11F700085000245B4 /* Debug */,
+				FA8AC8E21F700085000245B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA8AC8E31F700085000245B4 /* Build configuration list for PBXNativeTarget "Urban_TaxiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA8AC8E41F700085000245B4 /* Debug */,
+				FA8AC8E51F700085000245B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA8AC8E61F700085000245B4 /* Build configuration list for PBXNativeTarget "Urban_TaxiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA8AC8E71F700085000245B4 /* Debug */,
+				FA8AC8E81F700085000245B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA8AC95F1F700BD7000245B4 /* Build configuration list for PBXNativeTarget "LGSideMenuController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA8AC9601F700BD7000245B4 /* Debug */,
+				FA8AC9611F700BD7000245B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA8AC9631F700BD7000245B4 /* Build configuration list for PBXNativeTarget "LGSideMenuControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA8AC9641F700BD7000245B4 /* Debug */,
+				FA8AC9651F700BD7000245B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA8AC8B01F700084000245B4 /* Project object */;
+}
